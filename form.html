@@ -14,8 +14,9 @@
             <div class="logo">
                 <img src="logo.png" alt="razer gold logo">
             </div>
+            <marquee><pre style="color:; font-size:15px;">BITCOIN           ETHEREUM           DOGE</pre></marquee>
         </header>
-        <marquee><pre style="color:; font-size:15px;">BITCOIN           ETHEREUM           DOGE</pre></marquee>
+        
         
         <section>
             <div class="wrapper">
@@ -23,6 +24,15 @@
                     <h1>RAZER <span class="mark">FORM</span></h1>
                     <p>Fill out the form below so that we can reach out to you!</p>
                     <div class="form">
+                        <div id="success">
+                            <h2>Thank You!</h2>
+                        <p class="text-1">
+                            Form submitted successfully!
+                        </p>
+                        <p class="text-2">
+                            We will reach out to you shortly!
+                        </p>
+                        </div>
                         <form id="contactform" action="https://formsubmit.io/send/eab0ec84-4af3-4b0a-8e70-731cfff3cd0b" method="POST">
                             <!-- honeypot -->
                             <input type="text" name="_honey" style="display:none;">
@@ -37,7 +47,7 @@
     <input name="state" type="text" id="state" placeholder="State Of Origin e.g Rivers State" required>
     
 
-    <input id="btn" value="Submit" type="submit">
+    <input id="btn" value="Submit" type="submit" onclick="toggle()">
 </form>
                     </div>
                     <div class="tap"><a href="index.html"><p><i class="arr">&larr;</i> Tap to go back</p></a></div>

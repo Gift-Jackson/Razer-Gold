@@ -69,6 +69,9 @@ header{
 .btn:active{
     background: orange;
 }
+marquee{
+    margin-left: 20px;
+}
 marquee pre{
     color: orange;
     text-shadow: 0px 1px 3px orangered;
@@ -146,19 +149,20 @@ section {
 }
 
 /* success page */
-.success{
+#success{
     margin: 40px 0;
     padding: 2rem;
     background: #fefefe;
+    display: none;
     box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
 }
-.success h2{
+#success h2{
     color:#243748 ;
 }
-.success p{
+#success p{
     color:#243748 ;
 }
-.success .text-1{
+#success .text-1{
     color:green;
 }
 /* media queries */
